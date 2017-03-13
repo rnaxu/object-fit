@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+.card {
+  &__container {
+    position: relative;
+  }
+  &__img {
+    background-color: #ccc;
+    &--contain {
+      object-fit: contain;
+    }
+    &--cover {
+      object-fit: cover;
+    }
+  }
+  &__headline {
+    font-size: 14px;
+    color: #fff;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+  }
+}

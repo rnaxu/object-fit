@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="uft-8">
+  <title>object-fit</title>
+</head>
+<body>
+  <div class="page">
+    <h1 class="headline">object-fit</h1>
+    <div class="flexContainer">
+      <section class="card">
+        <div class="card__container">
+          <img src="img/cat.jpg" alt="" class="card__img">
+          <h2 class="card__headline">original</h2>
+        </div>
+      </section>
+      <section class="card">
+        <div class="card__container">
+          <img src="img/cat.jpg" width="200" height="200" alt="" class="card__img card__img--contain">
+          <h2 class="card__headline">contain</h2>
+        </div>
+      </section>
+      <section class="card">
+        <div class="card__container">
+          <img src="img/cat.jpg" width="200" height="200" alt="" class="card__img card__img--cover">
+          <h2 class="card__headline">cover</h2>
+        </div>
+      </section>
+    </div>
+    <div class="flexContainer">
+      <section class="card">
+        <div class="card__container">
+          <img src="img/tower.jpg" alt="" class="card__img">
+          <h2 class="card__headline">original</h2>
+        </div>
+      </section>
+      <section class="card">
+        <div class="card__container">
+          <img src="img/tower.jpg" width="200" height="200" alt="" class="card__img card__img--contain">
+          <h2 class="card__headline">contain</h2>
+        </div>
+      </section>
+      <section class="card">
+        <div class="card__container">
+          <img src="img/tower.jpg" width="200" height="200" alt="" class="card__img card__img--cover">
+          <h2 class="card__headline">cover</h2>
+        </div>
+      </section>
+    </div>
+  </div>
+<script src="bundle.js"></script>
+</body>
+</html>
