@@ -6,3 +6,6 @@ http://caniuse.com/#search=object-fit
 
 ## polyfill
 https://github.com/bfred-it/object-fit-images
+
+## demo
+https://rnaxu.github.io/object-fit/
