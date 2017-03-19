@@ -8,9 +8,11 @@
     background-color: #ccc;
     &--contain {
       object-fit: contain;
+      font-family: 'object-fit: contain;'
     }
     &--cover {
       object-fit: cover;
+      font-family: 'object-fit: cover;'
     }
   }
   &__headline {
