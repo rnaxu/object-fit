@@ -1,7 +1,7 @@
 # object-fit
-Try the object-fit CSS property
+Try object-fit of CSS property
 
-## support browser
+## support browser of object-fit
 http://caniuse.com/#search=object-fit
 
 ## polyfill
